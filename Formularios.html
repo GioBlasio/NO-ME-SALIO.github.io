@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="CSS/CSS.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+	<h1>FORMULARIOS EN HTML </h1>
+		<nav>
+			<ul>
+				<a href= "MI PRIMERA PAGINA.html" ><li>Mi primera página</li></a>
+				<a href= "TABLAS.html"><li>Tablas</li></a>
+				<a href= "TIPOS DE TABLAS.html"><li>Tipos de Tablas</li></a>
+				<a href= "LISTAS.html"><li>Listas</li></a>
+				<a href= "ENLACES.html"><li>Enlaces</li></a>
+				<a href= "INDEX.html" ><li>Imagenes</li></a>
+				<a href= "Audio y video.html"><li>Video y Audio</li></a>
+			<a href= "VIDEO.html"><li>Video </li></a>
+			<a href= "ANIMACIÓN.html"><li>Animación </li></a>
+			<a href= "Formularios.html"><li>Formularios</li></a>
+			<a href= "FLEXBOX.html"><li>Flexbox</li></a>
+			</ul>
+		</nav>
+		
+		
+	</header>
+	
+	
+	<main>
+		<section>
+			<h2>Inserccion de Formularios</h2>
+			<form>
+				<label>Nombre </label>
+				<input type="text" id="idname">
+				<input type="button" id="idboton" value="enviar">
+			</form>
+		</section>
+		
+		<section>
+			<h2>Casillas de verificación</h2>
+			<form>
+				<label>¿Cúal es tu color favorito?</label>
+				<input type="checkbox" id="check" name="check" value="azul">
+				<label>azul</label>
+				
+				<input type="checkbox" id="check1" name="check1" value="rosa">
+				<label>rosa</label>
+				
+				<input type="checkbox" id="check2" name="check2" value="morado">
+				<label>morado</label>
+				<input type="button" id="idboton1" value="enviar">
+				</form>
+		</section>
+		<section>
+			<h2>Inserccion de Formularios con botones de radio</h2>
+			<form id="form1" name="form1" method="get" action="../EJERCICIO 2/ANIMACIÓN.html">
+				<label>Genero</label>
+				<input type="radio" name="radio" id="radio" value="radio">
+				<label for="radio"> Femenino&nbsp; </label>
+				<input type="radio" name="radio2" id="radio2" value="radio2">
+				<label for="radio2"> Masculino&nbsp; </label>
+				<input type="submit" name="submit" id="submit" value="enviar">
+				
+				
+			
+			</form>
+			
+		</section>
+		<section>
+			<h2>Formulario de contacto</h2>
+			<form action="../EJERCICIO 2/ENLACES - copia.html" method="post">
+				<label>Contacto</label>
+				<label for="textfield">Nombre&nbsp;</label>
+				<input type="text" name="textfield" id="textfield">
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email">
+				<label for="textarea">Mensaje:</label>
+				<textarea name="textarea" id="textarea"></textarea>
+				<input type="submit" name="submit2" id="submit2" value="enviar">
+				
+				
+			</form>
+			
+			
+		</section>
+		<section>
+			<h2>Formulario long in</h2>
+			<form action="" method="post" name="FormEntrar">
+		 		<div class="input-group input-group-lg">
+				  <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-envelope"></i></span>
+				  <input type="email" class="form-control" name="correo" placeholder="Correo" id="Correo" aria-describedby="sizing-addon1" required>
+				</div>
+				<br>
+				<div class="input-group input-group-lg">
+				  <span class="input-group-addon" id="sizing-addon11"><i class="glyphicon glyphicon-lock"></i></span>
+				  <input type="password" name="contra" class="form-control" placeholder="**" aria-describedby="sizing-addon1" required>
+				</div>
+				<br>
+				<button class="btn btn-lg btn-primary btn-block btn-signin" id="IngresoLog" type="submit">Enviar</button>
+				<div class="opcioncontra"><a href="">Olvidaste tu contraseña?</a></div>
+		 	</form>
+			
+			
+			
+		</section>
+	
+	</main>
+	<footer>Hecho por Blasio Giovanna</footer>
+</body>
+</html>

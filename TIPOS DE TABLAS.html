@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TIPOS DE TABLAS</title>
+</head>
+<style type= "text/css">
+    *{
+       
+        margin:0;
+        padding:0;
+    }
+    
+    h2{
+        background-color:#fabc28;
+        padding: 5px;
+        padding-left: 20px;
+        color:azure;
+        text-align: center;
+    }
+    
+    h5{
+        padding:20px;
+    
+	}
+		body{ 
+		background-color:azure;
+			color: #fabc28;
+				
+		}
+    
+    th{
+        background-color:#ec5489;
+    }
+    
+    table{
+        align-content: center;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    
+    td {
+        /* background-color: #ec5489; */
+        padding: 10px;
+    }    
+
+    th {
+        text-align: left;
+        padding: 10px;
+    }
+    
+    section{
+        background-color:#E2d5d0;
+        width: 1024px;
+        padding-bottom:50px
+    }
+    nav{
+        padding top: 30px;
+        padding-bottom: 30px;
+        background-color:#ec5489;
+        width: 1024px;
+    }
+    header{
+        width: 984px;
+        padding:20px;
+        background-color:#151723;
+        text-align: center;
+        color:#fabc28;
+    }
+    
+    #t01 th{ 
+         background-color:#ec5489;
+     }
+    
+    #t01 tr:nth-child(odd){
+         background-color:#293498;
+     }
+     
+    #t01 tr:nth-child(even){
+        background-color:blueviolet;
+		
+    }
+        
+    #t01 td:hover{
+        background-color:teal;
+		
+    }
+    
+    .t02 {
+        background-color:#8778DA;
+		
+    }
+    header,nav,section{
+        margin: 0 auto;
+    }
+    
+    footer{
+        background-color:#151723;
+        margin: 0 auto;
+        width: 1024px;
+        padding top: 60px;
+        padding-bottom: 60px;
+        text-align: center;
+        color:#fabc28;
+    }
+	
+
+    </style>
+
+<body>
+    <header>
+        <h1>TABLAS</h1>
+    </header>
+    <nav></nav>
+    <main>
+         <section>
+            <h2>Tabla simple</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Telefono</th>
+                        <th>Edad</th>
+                    </tr>   
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Giovanna</td>
+                        <td>22 22 05 13 45</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>Rebeca</td>
+                        <td>22 22 05 15 46</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Rodolfo</td>
+                        <td>22 22 05 15 44</td>
+                        <td>56</td>
+                    </tr>
+                    <tr>
+                        <td>Luis</td>
+                        <td>20 25 45 30 12</td>
+                        <td>21</td>
+                    </tr>
+                   
+                   
+                </tbody>
+            </table>
+        </section>
+        
+        <section>
+            <h2>Tabla con celda que abarca dos columnas</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th colspan="2">Correo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="t02">Rodolfo Jimenez</td>
+                        <td class="t02">2222061700</td>
+                        <td class="t02">2222079867</td>
+                    </tr>
+                    <tr>
+                        <td>Giovanna Blasio</td>
+                        <td>2224733755</td>
+                        <td>2223534562</td>
+                    </tr>
+                    <tr>
+                        <td>Rebeca Minutti</td>
+                        <td>2345655678</td>
+                        <td>2325654576</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </section>
+        
+        <section>
+            <h2>Tabla con modificadores y hover</h2>
+            <table border="1" id="t01">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Correo</th>
+                    </tr>   
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Rebeca Minutti</td>
+                        <td>30</td>
+                        <td>rbk@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Rodolfo Jimenez</td>
+                        <td>56</td>
+                        <td>rodolfo@hotmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Giovanna Ylizaliturri</td>
+                        <td>23</td>
+                        <td>giovanna@gmail.com</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <h5>Elaborado por Blasio Giovanna </h5>
+    </footer>
+    
+</body>
+</html>
+

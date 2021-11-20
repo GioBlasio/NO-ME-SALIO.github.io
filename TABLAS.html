@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TABLAS EN HTML</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;			
+		}
+		h1{
+			color:#fabc28;
+			font-size: 48px;
+			
+		}
+		h2{
+			color:#E2d5d0;
+			font-size: 48px;	
+		}
+		body{ 
+		background-color: #151723;
+			color: #fabc28;
+				
+		}
+		header,footer,main,nav{
+			margin: 0 auto;
+			width: 1024px;
+			padding: 20px;
+				
+		}
+		header{
+		color: #ec5489;
+			text-align: center
+			
+		}
+		nav{
+			color: #fabc28;
+			
+		}
+		main{
+			background-color: #2a2642
+		}
+		section{
+			background-color: #151723;
+			margin: 20px;
+			padding: 30px;
+			color: #ec5489;
+			
+		}
+		footer{
+			width: 1024px;
+			height: 50px;
+			color: #fabc28;
+			text-align: center;
+			padding: 20px;
+			
+			
+			}	
+		table{
+			border-collapse: collapse;
+			
+			}
+		th,td{
+			padding: 10px;
+			
+		}
+		th{
+			text-align:left;
+			background-color:#1652A5c;
+			color:#CFFFF3
+		}
+		td{
+			background-color:#000415;
+			color: #fabc28;
+		}
+		#t01 th{
+			background-color:#500038;
+			border: double 4px #030E1E;
+		
+		}
+		#t01 td{
+			background-color:#2D093D;
+			border: double 4px #030E1E ;
+			
+		}
+		
+		
+	</style>		
+</head>
+
+<body>
+	<header>
+		<h1>TABLAS EN HTML</h1>
+		
+		
+	</header>
+	<nav>
+		<p></p>
+	</nav>
+	<main>
+	<section>
+		<h2>Tabla simple</h2>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Dirección</th>
+					<th>Telefono</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Giovanna</td>
+					<td>Giovanna@gmail.com</td>
+					<td>222222</td>
+				</tr>
+				<tr>
+					<td>Rebeca</td>
+					<td>Becky@gmail.com</td>
+					<td>32131213</td>
+				</tr>
+				<tr>
+					<td>Rodolfo</td>
+					<td>Fofo@gmail.com</td>
+					<td>3213211</td>
+				</tr>
+				
+			</tbody>
+			
+		</table>
+		
+		</section>
+		<section>
+			<h2>Tabla con celda que abarca dos columnas </h2>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th colspan="2"> Telefono</th>
+				</tr>
+				
+			</thead>
+			<tbody>
+				<tr>
+					<td>Giovanna</td>
+					<td>222222</td>
+					<td>222222</td>
+				</tr>
+				<tr>
+					<td>Rebeca</td>
+					<td>222222</td>
+					<td>32131213</td>
+				</tr>
+				<tr>
+					<td>Rodolfo</td>
+					<td>222222</td>
+					<td>3213211</td>
+				</tr>						
+			</tbody>
+			</table>
+		</section>
+		<section>
+			<h2>Tablas modificadas a partir de ccs</h2>
+			<table width="600" border="1" id="t01">
+  <tbody>
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Edad</th>
+      <th scope="col">----</th>
+    </tr>
+    <tr>
+      <td>Elizabeth</td>
+      <td>Isaura</td>
+      <td>Emanuel</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>35</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>223313132</td>
+      <td>ewfwf</td>
+      <td>wqdqhdhqgdhq</td>
+    </tr>
+  </tbody>
+</table>
+
+		</section>
+		
+	</main>
+	<footer>Hecho por: Blasio Giovanna
+	</footer>
+	<section>
+	</section>
+</body>
+</html>
